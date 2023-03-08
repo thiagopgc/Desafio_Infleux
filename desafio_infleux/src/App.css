@@ -1,3 +1,57 @@
 .App {
+  width: 40%;
+  margin: 2em auto;
+  border-radius: 5px;
+  background-color: #394049;
+  color: white;
+}
+
+.campaign-header {
+  padding: 0.5em;
+  border-bottom: 1px solid #2c3035;
   text-align: center;
+}
+
+.campaign-header h1 {
+  margin: 0;
+}
+
+.form-campaign {
+  padding: 1em;
+  margin: 0 2em;
+  border-bottom: 1px solid #2c3035;
+}
+
+.form-campaign h2 {
+  text-align: center;
+  margin-top: 0;
+}
+.list-campaigns {
+  display: flex;
+  flex-direction: column;
+}
+.campaign {
+  text-align: center;
+}
+.campaign button {
+  width: 50px;
+  height: 30px;
+  border: 1px solid #222;
+  border-radius: 2px;
+  background-color: #2c3035;
+  padding: 0.5em;
+  color: #dfdfdf;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #eee;
+  display: block;
+  width: 100%;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
 }
